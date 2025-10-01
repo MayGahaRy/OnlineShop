@@ -31,13 +31,37 @@
     align-items: center;
 }
 .profile-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     text-align: center;
+    color:dimgrey;
+}
+.User{
+    font-size: 50px;
 }
 .center-of-header{
     text-align: center;
 }
+.search-bar-input-text{
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+}
+.search-bar-input-submit{
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    background-color: white;
+}
 .Login-container{
     text-align: center;
+}
+.Login-button{
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    background-color: white;
 }
 /*main section*/
 .main{
