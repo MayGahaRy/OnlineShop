@@ -1,4 +1,4 @@
-var sidebar = document.getElementById("sidebar-js");
+var sidebar = document.getElementById("sidebar");
 
 function toggleSidebar() {
     if (sidebar.style.display === "block") {
