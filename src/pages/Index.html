@@ -9,11 +9,14 @@
 </head>
 <body dir="rtl">
     <div class="section-container">
-        <div class="section-two">
+        <!-- section two -->
+        <div class="section-two" id="sidebar-js">
+            <!-- sidebar -->
             <div class="sidebar">
                 sidebar
             </div>
         </div>
+        <!-- section one -->
         <div class="section-one">
             <header class="header" dir="ltr">
                 <div class="profile-container">
@@ -21,20 +24,20 @@
                         <i class="fa-solid fa-circle-user"></i>
                     </div>
                     <div class="username">
-                        <label for="">Username</label>
+                        <label for="">Login|Register</label>
                     </div>
                 </div>
                 <div class="center-of-header">
                     <div class="logo-container">
-                        <img src="" alt="Logo">
+                        <img src="" alt="SimpleOnlineShop">
                     </div>
                     <div class="Search-Bar">
                         <input class="search-bar-input-text" type="text" placeholder="what do you want?">
                         <button type="submit" class="search-bar-input-submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </div>
                 </div>
-                <div class="Login-container">
-                    <input class="Login-button" type="button" value="Login">
+                <div onclick="toggleSidebar()" class="hamer-bar-container">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
             </header>
             <div class="main">
@@ -46,4 +49,5 @@
         </div>
     </div>
 </body>
+<script src="../Script/sidebar.js"></script>
 </html>
